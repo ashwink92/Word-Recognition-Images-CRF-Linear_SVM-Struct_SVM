@@ -1,0 +1,60 @@
+"""
+Run statistics for 2b and 3a
+D:\MS Courses\AML\Project\Project_1(1)\solution>python crf.py
+===> Printing C,  1000
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 3742.088129
+         Iterations: 100
+         Function evaluations: 102
+         Gradient evaluations: 102
+===> Printing C,  1.0
+Optimization terminated successfully.
+         Current function value: 20.039494
+         Iterations: 13
+         Function evaluations: 26
+         Gradient evaluations: 26
+===> Printing C,  10.0
+Optimization terminated successfully.
+         Current function value: 127.393909
+         Iterations: 45
+         Function evaluations: 60
+         Gradient evaluations: 60
+===> Printing C,  100.0
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 670.476276
+         Iterations: 100
+         Function evaluations: 103
+         Gradient evaluations: 103
+
+
+Prediction stats for 2b
+(83.686, 47.281)
+
+
+Run Statistics for 4a
+===> Printing C,  1000.0
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 4553.929274
+         Iterations: 100
+         Function evaluations: 102
+         Gradient evaluations: 102
+===> Printing C,  1000.0
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 4962.395315
+         Iterations: 100
+         Function evaluations: 104
+         Gradient evaluations: 104
+===> Printing C,  1000.0
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 5282.610646
+         Iterations: 100
+         Function evaluations: 102
+         Gradient evaluations: 102
+===> Printing C,  1000.0
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 5505.896193
+         Iterations: 100
+         Function evaluations: 102
+         Gradient evaluations: 102
+
+"""
