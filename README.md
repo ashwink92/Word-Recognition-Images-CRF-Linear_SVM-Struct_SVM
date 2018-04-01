@@ -2,7 +2,7 @@
 Created a module for implementing
 Conditional random fields(CRF) using L-BFGS solver to recognize words and alphabets from images using NumPy in Python
   1. Formulating the Objective Function for the solver to minimize
-       <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+       <img src="https://latex.codecogs.com/svg.latex?\Large&space;min -C/n \sum log(p(y | x) + 1/2 \sum ||w^2|| + 1/2 \sum T^2" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
        min -C/n \sum log(p(y | x)) + 1/2 \sum ||w<sup>2</sup><sub>y</sub>|| + 1/2 \sum T<sub>ij</sub><sup>2</sup>
         Where w is node weights(pixel weight) for each letter in the alphabet
         and T is the edge weight between each letter pair in the word
